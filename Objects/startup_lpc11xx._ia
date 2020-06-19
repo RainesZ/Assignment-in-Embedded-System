@@ -1,0 +1,6 @@
+--cpu Cortex-M0 -g --apcs=interwork 
+-I.\RTE\_Target_1
+-IE:\Keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include
+-IE:\Keil\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx
+--pd "__UVISION_VERSION SETA 523" --pd "_RTE_ SETA 1"
+--list .\listings\startup_lpc11xx.lst --xref -o .\objects\startup_lpc11xx.o --depend .\objects\startup_lpc11xx.d "startup_LPC11xx.s"

@@ -1,0 +1,36 @@
+# 忽略以下文件夹下的所有文件
+Output/
+
+# 星号表示通配符，忽略所有以.bak等结尾的文件
+*.bak
+*.jscope
+*.map
+*.lst
+*.ddk
+*.edk
+*.lnp
+*.mpf
+*.mpj
+*.obj
+*.omf
+*.plg
+*.rpt
+*.tmp
+*.__i
+*.crf
+*.o
+*.d
+*.axf
+*.tra
+*.dep
+*.iex
+*.htm
+*.sct
+*.uvoptx
+*.uvguix.*
+
+# 忽略以下文件
+JLinkLog.txt
+
+# 不忽略以下文件
+!*.uvprojx
